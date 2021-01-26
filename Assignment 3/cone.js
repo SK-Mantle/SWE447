@@ -20,7 +20,9 @@ function init() {
 }
 
 function render() {
-    gl.clear( gl.COLOR_BUFFER_BIT );
+    gl.clear( gl.COLOR_BUFFER_BIT | gl.depth_BUFFER_BIT);
+    
+    cone.render();
 }
 
 window.onload = init;
