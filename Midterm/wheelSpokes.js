@@ -3,7 +3,7 @@ var SolarSystem = {
     radius : 3,  
     distance : 0,
     year : 0,
-    color : [ 1.0, 1.0, 0.0, 1.0 ]
+    color : [ 0.5, 0.5, 0.5, 1.0 ]
   },
   spokeOneOne : {
     radius : 2,
@@ -88,5 +88,11 @@ var SolarSystem = {
     year : 2,
 	axis : [0.0, 0.0, 1.0],
     color : [ 0.5, 0.5, 0.5, 1.0 ]
+  },
+  bigWheel : {
+    radius : 3,  
+    distance : 0,
+    year : 2,
+    color : [ 1.0, 1.0, .0, 1.0 ]
   }
 };
