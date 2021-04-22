@@ -1,10 +1,10 @@
 let scene, camera, renderer, skyboxGeo, skybox, controls, myReq;
 let zoomOut = false;
 let autoRotate = true;
-let skyboxImage = 'interstellar';
+let skyboxImage = 'purplenebula';
 
 function createPathStrings(filename) {
-  const basePath = `./textures/`;
+  const basePath = `https://raw.githubusercontent.com/SK-Mantle/SWE447/main/Menard_Final/textures/${filename}/`;
   const baseFilename = basePath + filename;
   const fileType = filename == 'interstellar' ? '.png' : '.jpg';
   const sides = ['ft', 'bk', 'up', 'dn', 'rt', 'lf'];
