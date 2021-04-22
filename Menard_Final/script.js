@@ -106,7 +106,7 @@ function toggleZoom(value) {
   loading.style.display = value ? 'none' : 'show';
 }
 
-const spaceBtn = document.getElementById('space');
+const spaceBtn = document.getElementById('sky');
 const mountainsBtn = document.getElementById('mountains');
 const waterBtn = document.getElementById('water');
 const lavaButton = document.getElementById('lava');
